@@ -1,4 +1,5 @@
 (function() {
+    // 组合模式
     var closeDoorCommand = {
         execute: function() {
             console.log('关门');
@@ -92,7 +93,4 @@
     folder.add(file1);
     folder1.remove(); // 移除文件夹folder.scan();
     folder.scan();
-
-
-
 })()
